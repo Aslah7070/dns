@@ -9,7 +9,7 @@ const Hero = () => {
             }}
             className="relative w-full h-[250px] md:h-[300px] lg:h-[350px] flex items-center justify-center text-center text-white"
         >
-            {/* Gradient overlay */}
+      
             <div
                 className="absolute inset-0"
                 style={{
@@ -17,7 +17,7 @@ const Hero = () => {
                   }}
             />
 
-            {/* Content */}
+        
             <div className="relative z-10 px-6">
                 <h1 className="text-3xl md:text-6xl font-bold text-white mb-4" >MENU</h1>
                 <p className="kelly-font text-sm md:text-base leading-relaxed">
