@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Build outputs
+.next/
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Testing
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: Ignore local uploads or dev folders
+/public/uploads/
+/tmp/
+/*.log
+
+# Optional: If using vercel
+.vercel/
+
+# Optional: If using turbo repo
+turbo/
+
+# Optional: Ignore next export cache
+.cache/
