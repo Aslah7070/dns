@@ -38,7 +38,7 @@ const Footer = () => {
                 <div className="md:hidden flex flex-col items-center text-center space-y-4 pt-6">
                     <div className="border border-gray-500 p-4 rounded-lg w-80 h-40 flex justify-center items-center mb-2">
                         <Image
-                            src="/images/logoimage.png"
+                            src="/assets/Logo.svg"
                             alt="Deep Net Soft Logo"
                             width={100}
                             height={50}
