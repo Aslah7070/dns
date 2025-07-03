@@ -5,6 +5,7 @@ import cors from "cors"
 import { menu } from "./routes/menu.route";
 
 const app=express()
+console.log("env.CLIENT_ORIGIN",env.CLIENT_ORIGIN);
 
 app.use(
   cors({
